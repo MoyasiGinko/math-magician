@@ -1,0 +1,32 @@
+.calculator-container {
+  max-width: 500px;
+  margin: auto;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.calculator__output-screen {
+  background-color: rgb(145, 154, 162);
+  text-align: end;
+  padding: 20px;
+}
+
+.calculator__numbers-container {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calculator__row td {
+  border: 1px solid #d9d6d6;
+  text-align: center;
+  padding: 20px;
+}
+
+.num {
+  background-color: antiquewhite;
+}
+
+.calculator__operator {
+  background-color: #ea833d;
+}
