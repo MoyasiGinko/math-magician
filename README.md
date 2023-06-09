@@ -55,7 +55,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://moyasiginko.github.io/math-magician/)
+N/A
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
