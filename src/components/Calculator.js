@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import AppDesign from './design';
 import './calculator.css';
-import Quotes from './quotes';
 
 const Calculator = () => {
   const [result, setResult] = useState('0');
@@ -29,13 +28,8 @@ const Calculator = () => {
     }
   };
   return (
-    <div className="app-container">
-      <div className="quote-container">
-        <Quotes />
-      </div>
-      <div className="calculator-container">
-        <AppDesign handleButtonClick={handleButtonClick} result={result} />
-      </div>
+    <div className="calculator-container">
+      <AppDesign handleButtonClick={handleButtonClick} result={result} />
     </div>
   );
 };

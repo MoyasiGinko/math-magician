@@ -45,7 +45,7 @@ function Quotes() {
   }
 
   return (
-    <div className="quote">
+    <div>
       <h1 className="headline">Quote</h1>
       <p className="quote-data">{data.quote}</p>
       <p className="author">{data.author}</p>
