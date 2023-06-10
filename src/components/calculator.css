@@ -1,13 +1,54 @@
-.calculator-container {
-  width: 500px;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&family=Secular+One&display=swap');
+
+body {
+  background-color: #393939;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
   margin: 100px auto auto auto;
+}
+
+.calculator-container {
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px 3px rgba(239, 244, 249, 0.1);
+}
+
+.quote-container {
+  background-color: #d6d8d9d0;
+  width: 400px;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px 3px rgba(239, 244, 249, 0.1);
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .main-app {
   padding: 8px;
   border-radius: 16px;
   background-color: #d9d6d6;
-  box-shadow: 0 10px 15px 3px rgba(239, 244, 249, 0.1);
+}
+
+.headline {
+  color: rgba(153, 235, 255, 0.85);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.author {
+  color: rgba(255, 204, 153, 0.9);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.quote-data {
+  text-size-adjust: 100%;
+  color: rgba(240, 255, 255, 0.812);
+  text-shadow: 1px 1px 3px rgba(249, 246, 206, 0.1);
 }
 
 .calculator__output-screen {
