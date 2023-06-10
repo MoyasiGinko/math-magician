@@ -40,12 +40,12 @@ body {
 }
 
 .headline {
-  color: rgba(153, 235, 255, 0.812);
+  color: rgba(153, 235, 255, 0.85);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .author {
-  color: rgba(153, 235, 255, 0.812);
+  color: rgba(255, 204, 153, 0.9);
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
