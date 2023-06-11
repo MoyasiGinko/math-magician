@@ -46,15 +46,17 @@ body {
 }
 
 .quote-data {
+  padding: 4px;
   text-size-adjust: 100%;
-  color: rgba(240, 255, 255, 0.812);
+  color: rgba(240, 255, 255, 0.9);
   text-shadow: 1px 1px 3px rgba(249, 246, 206, 0.1);
 }
 
 .calculator__output-screen {
   background-color: rgb(145, 154, 162);
+  color: aliceblue;
   text-align: end;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   padding: 20px;
   margin-bottom: 8px;
