@@ -3,6 +3,9 @@
 <div align="center">
   <h1> Math Magician </h1>
   <br/>
+  
+  ![Screenshot 2023-06-11 093707](https://github.com/MoyasiGinko/math-magician/assets/108092696/5cdb3d99-5dea-4e0f-8425-f9993ae82de3)
+
 </div>
 
 # 📗 Table of Contents
