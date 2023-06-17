@@ -28,8 +28,10 @@ const Calculator = () => {
     }
   };
   return (
-    <div className="calculator-container">
-      <AppDesign handleButtonClick={handleButtonClick} result={result} />
+    <div className="app-container">
+      <div className="calculator-container">
+        <AppDesign handleButtonClick={handleButtonClick} result={result} />
+      </div>
     </div>
   );
 };
