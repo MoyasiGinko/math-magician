@@ -37,18 +37,20 @@ function Quotes() {
   }, []);
 
   if (loading) {
-    return <p className="quote">Loading...</p>;
+    return <p className="prompt-quote">Loading...</p>;
   }
 
   if (error) {
-    return <p className="quote">Error loading quote...</p>;
+    return <p className="promptquote">Error loading quote...</p>;
   }
 
   return (
-    <div>
-      <h1 className="headline">Quote</h1>
-      <p className="quote-data">{data.quote}</p>
-      <p className="author">{data.author}</p>
+    <div className="app-quote">
+      <div className="quote-container">
+        <h1 className="headline">Quote</h1>
+        <p className="quote-data">{data.quote}</p>
+        <p className="author">{data.author}</p>
+      </div>
     </div>
   );
 }
