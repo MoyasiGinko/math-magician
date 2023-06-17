@@ -36,9 +36,19 @@ body {
   font-family: 'Lilita One', cursive;
   font-size: 40px;
   font-weight: 600;
-  color: #f3aafa;
+  color: #f3aafaec;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  margin: 8px;
+  padding: 8px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+#navbar h1:hover {
+  color: #eeaef8;
+}
+
+#navbar h1:active {
+  color: #aef8f0;
 }
 
 #menu a {
@@ -81,7 +91,7 @@ body {
   font-family: 'Secular One', sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: #f1fdff;
+  color: #c6b3eeda;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   margin: 8px;
 }
@@ -107,6 +117,7 @@ body {
   font-size: 20px;
   font-weight: 600;
   text-align: center;
+  color: #aef8f0;
 }
 
 .quote-container {
@@ -139,8 +150,8 @@ body {
 .quote-data {
   padding: 4px;
   text-size-adjust: 100%;
-  color: rgba(240, 255, 255, 0.9);
-  text-shadow: 1px 1px 3px rgba(249, 246, 206, 0.5);
+  color: rgba(202, 251, 251, 0.9);
+  text-shadow: 1px 1px 3px rgba(121, 121, 118, 0.8);
 }
 
 .calculator__output-screen {
