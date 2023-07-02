@@ -4,7 +4,8 @@
   <h1> Math Magician </h1>
   <br/>
   
-  ![Screenshot 2023-06-11 093707](https://github.com/MoyasiGinko/math-magician/assets/108092696/5cdb3d99-5dea-4e0f-8425-f9993ae82de3)
+  ![Screenshot 2023-07-02 205550](https://github.com/MoyasiGinko/math-magician/assets/108092696/0286f600-6fc7-4a55-b849-0f26121f014e)
+
 
 </div>
 
@@ -56,9 +57,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+[Live Link](https://math-magician-m0pk.onrender.com)
 
-N/A
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
